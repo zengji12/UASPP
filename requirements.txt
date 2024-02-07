@@ -1,8 +1,5 @@
 cv2module==0.1.2
 opencv-contrib-python==3.4.18.65
-opencv-contrib-python-headless==4.9.0.80
-opencv-python==4.9.0.80
-opencv-python-headless==4.9.0.80
 numpy==1.26.3
 Pillow==9.5.0
 streamlit==1.25.0
