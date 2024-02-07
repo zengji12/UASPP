@@ -7,3 +7,5 @@ streamlit-authenticator==0.2.2
 streamlit-lottie==0.0.5
 streamlit-option-menu==0.3.6
 streamlit-webrtc==0.24.1
+scikit-image==0.22.0
+opencv-python==4.9.0.80
