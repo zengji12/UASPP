@@ -29,7 +29,7 @@ def texture_analysis(face_image):
     return np.mean(sobel_energy) > threshold
 
 def face_recognition_program(break_button=None): 
-    recognizer = cv2.face_LBPHFaceRecognizer.create()
+    recognizer = cv2.face.LBPHFaceRecognizer_create()
     recognizer.read('recognizer/train.yml')
 
     face_cascade = cv2.CascadeClassifier("opencv-files/haarcascade_frontalface_alt.xml")
