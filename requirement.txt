@@ -1,7 +1,11 @@
-import cv2
-import os
-import numpy as np
-from PIL import Image
-import streamlit as st
-import time
-from skimage import filters
+opencv-contrib-python==3.4.18.65
+opencv-contrib-python-headless==4.9.0.80
+opencv-python==4.9.0.80
+opencv-python-headless==4.9.0.80
+numpy==1.26.3
+Pillow==9.5.0
+streamlit==1.25.0
+streamlit-authenticator==0.2.2
+streamlit-lottie==0.0.5
+streamlit-option-menu==0.3.6
+streamlit-webrtc==0.24.1
