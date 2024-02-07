@@ -38,7 +38,7 @@ def face_recognition_program(break_button=None):
     id = 0
 
     FRAME_WINDOW = st.image([])
-    cap = cv2.VideoCapture()
+    cap = cv2.VideoCapture(0)
     
     data_folder_path = 'data/'
     known_names = []
